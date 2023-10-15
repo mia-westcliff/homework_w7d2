@@ -1,0 +1,337 @@
+/* Header */
+header {
+    width: 100%;
+    min-height: 275px;
+}
+#home {
+    background: no-repeat white url(images/cliff_ocean.jpg);
+    background-size: 100% 400px;
+}
+#activities  {
+    background: no-repeat lightgray url(images/runfly.jpeg);
+    background-size: 100% 400px;
+}
+#contact {
+    background: no-repeat lightgray url(images/cliff_rock.jpeg);
+    background-size: 100% 400px;
+}
+#cliff {
+    background: no-repeat lightgray url(images/forest_cliff.jpg);
+    background-size: 100% 400px;
+}
+
+/* Navigation */
+.navbar-custom {
+    background-color:rgba(38, 41, 61, 0.7);
+    height: 120px;
+}
+
+.navbar-brand img {
+    position: relative;
+    bottom: 8px;
+}
+.navbar {
+    margin: 50px 50px 0px 50px;
+}
+.navbar-custom ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-left: 1px solid rgb(255, 255, 255);
+    line-height: 100px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.navbar-custom ul li a {
+    text-decoration: none;
+    color: #888;
+}
+.navbar-custom ul li a:hover {
+    color: #9ed034;
+}
+.navbar-custom ul li.active {
+    background: #9ed034;
+    border: none;
+}
+.navbar-custom ul li.active a {
+    color: #fff;
+}
+.navbar-toggler-icon {
+    background-color: rgba(38, 41, 61, 0.7);
+}
+.navbar-toggler {
+    display: block;
+    text-align: right;
+    margin-right: 15px;
+}
+.collapse.navbar-collapse {
+    display: none;
+}
+.collapse.navbar-collapse.show {
+    display: block;
+    position: absolute;
+    background-color:rgba(38, 41, 61, 0.7);
+    width: 100%;
+    z-index: 1000;
+    top: 60px; 
+    left: 0;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+/* Main */
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3em 3em 3em 3em;
+}
+h1 {
+    color: #9ed034;
+}
+h2 {
+    font-weight: bold;
+}
+
+/* Partners */
+section {
+    width: 100%;
+    background-color: #4288C3;
+}
+section .container {  
+    width: 1200px;
+    padding: 2em 0 2em 0;
+    margin: 0 auto;
+}
+section .container .partner {
+    display: inline-block;
+    margin: 0 0.75em;
+    padding: 1.3em 1.5em;
+    background-color: #fff;
+    border-radius: 50%;
+}
+section .container .partner img {
+    width: 90px;
+    height: 90px;
+}
+
+/* Image Grid */
+
+figure {
+    float: left;
+    width:45%;
+    margin: 1.66%;
+}
+
+#imagesgrid img {
+    max-width:100%;
+}
+
+figcaption {
+    background-color:darkred;
+    display: block;
+    color: white;
+    font-weight: 10px;
+    text-align:center;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 155px;
+    padding-bottom: lem;
+    background-color: #ecfab8;
+}
+footer #nondisclaimer .copy {
+    padding: 3.5em 3.5em 3.5em 13em;
+    float: left;
+    font: 0.9em;
+}
+footer #nondisclaimer .social {
+    padding: 2.5em;
+    margin-right: 9.25em;
+    float: right;
+}
+footer #disclaimer {
+    clear: both;
+}
+footer #disclaimer p {
+    font-size: 0.85em;
+    text-align: center;
+}
+footer #nondisclaimer .social .fa {
+    padding: 15px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 4px;
+    border-radius: 50%;
+}
+footer #nondisclaimer .social .fa:hover {
+    opacity: 0.7;
+}
+footer #nondisclaimer .social .fa-facebook{
+    background: #3b5998;
+    color: white;
+}
+footer #nondisclaimer .social .fa-instagram{
+    background: #55acee;
+    color: white;
+}
+footer #nondisclaimer .social .fa-twitter{
+    background: #125688;
+    color: white;
+}
+
+/* Activities */
+table {
+    width: 1000px;
+    margin: 4em auto 0 auto;
+}
+caption {
+    background: #852b1b;
+    height: 40px;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 1em;
+}
+thead {
+    background: #bde1ff;
+}
+tbody {
+    background: #eeffe6;
+    text-align: center;
+}
+th,td {
+    width: 225px;
+    height: 75px;
+    vertical-align: middle;
+    border: solid 1px #852b1b;
+}
+th:first-child {
+    width: 125px;
+    height: 50px;
+    background: #4977d1;
+    color: #fff;
+}
+td:first-child {
+    font-size: bold;
+    background: #bde1ff;
+}
+
+/* Contact */
+form {
+    width: 1000px;
+}
+fieldset {
+    border: 2px solid #9ed034;
+    margin-top: 1em;
+}
+.contactinfo .phone span:first-child {
+    font-weight: bold;
+}
+.contactinfo .email span:first-child {
+    font-weight: bold;
+}
+.textbox {
+    margin-left: 2em;
+}
+.radios {
+    margin-left: 2em;
+}
+.radios label {
+    display: inline-block;
+}
+.radios input {
+    display: inline-block;
+}
+.selectmenu {
+    margin-left: 2em;
+}
+.selectmenu label {
+    display: inline-block;
+}
+.selectmenu select {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+.commentbox {
+    margin-left: 2em;
+}
+textarea{
+    width: 500px;
+    height: 200px;
+}
+form .btn {
+    margin: 20px 0 10px 400px;
+    width: 8em;
+}
+.randomcode {
+    margin-top: 50px;
+    margin-left: 210px;
+    height: 4em;
+}
+.randomcode input[type="text"],
+.randomcode p {
+    display: inline-block;
+}
+.randomcode p {
+    background-color: #888;
+}
+label{
+    font-weight: bold;
+    display: block;
+    margin: 15px 0 0 0;
+}
+.textbox input{
+    width: 500px;
+    height: 35px;
+}
+#timeofday {
+    height: 60;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    background: linear-gradient(0deg, rgba(251,215,139,1) 0%, rgba(118,213,245,1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: #3a3a3a;
+}
+#timeofday #clock {
+    color: #125688;
+}
+.selected {
+    background-color: greenyellow;
+    cursor: pointer;
+}  
+.selectable {
+    cursor: pointer;
+}
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
