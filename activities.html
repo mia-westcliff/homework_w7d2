@@ -56,6 +56,7 @@
         <main>
             <h1>Activities</h2>
             <p>There are many planned activities at all the cliff sites. Some are scheduled daily, weekly, monthly and yearly. These activities are not however run by the state park and recreational department. They are operated and manage by private vendors but are partners with the state department. Therefore, for schedule inquiries or information, please contact them directly. For a list of activities, please refer to the table below:</p>
+            <div class="table-responsive">
             <table>
                 <caption>Activities at the Cliffs</caption>
                 <thead>
@@ -105,6 +106,24 @@
                     </tr>
                 </tbody>
             </table>
+        </div>
+        <div class="modal fade" id="cellModal" tabindex="-1" role="dialog" aria-labelledby="cellModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">My selected activities: </h5>
+                </div>
+                <div class="modal-body" id="cellContent">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success" data-dismiss="modal">Back to Activies</button>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Get info</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
         </main>
         
         <section class="partners">
